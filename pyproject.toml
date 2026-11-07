@@ -1,0 +1,12 @@
+[project]
+name = "maintenance"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.27,<1",
+    "pytest>=8,<9",
+    "python-dotenv>=1,<2",
+    "streamlit>=1.40,<2",
+]
